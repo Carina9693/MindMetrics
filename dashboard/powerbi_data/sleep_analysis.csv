@@ -1,0 +1,9 @@
+sleep_duration,depression,student_count
+5-6 hours,No,59
+5-6 hours,Yes,64
+7-8 hours,No,61
+7-8 hours,Yes,67
+Less than 5 hours,No,59
+Less than 5 hours,Yes,64
+More than 8 hours,No,71
+More than 8 hours,Yes,57
