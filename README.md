@@ -1,102 +1,134 @@
-Superstore Sales Analytics Dashboard
-Business Intelligence | Sales Performance | Tableau
+MindMetrics – Student Mental Health Analytics
 
-Project Overview
+Python | Data Analytics | Exploratory Data Analysis | Power BI
 
-The Superstore Sales Analytics project focuses on analyzing retail sales data to understand business performance, identify sales trends and evaluate profitability across different product categories, customer segments and geographical regions.
+ Project Overview
 
-Using Tableau, an interactive dashboard was developed to transform raw sales data into meaningful visual insights that support data-driven business decisions.
+MindMetrics is a data analytics project focused on exploring the relationship between student mental health, academic pressure, lifestyle habits and financial stress.
+
+The project analyzes student-related data using Python and data visualization techniques, presenting meaningful patterns and insights through an interactive Power BI dashboard.
 
 Business Problem
 
-Retail businesses generate large volumes of sales data but often struggle to identify which products, regions and customer segments contribute most to revenue and profitability.
+Student mental health is an important concern for educational institutions. However, understanding the academic, financial and lifestyle factors associated with student depression requires systematic analysis of student data.
 
-The objective of this project is to analyze Superstore sales data to identify business performance patterns, understand profitability challenges and highlight opportunities for improvement.
+MindMetrics aims to identify patterns and relationships between these factors and reported depression to help educational institutions better understand student well-being and make informed decisions regarding student support initiatives.
 
-Project Objectives
+ Project Objectives
 
-- Analyze overall sales and profit performance.
-- Identify top-performing and underperforming product categories.
-- Evaluate sales and profitability across geographical regions.
-- Understand customer segment performance.
-- Identify monthly and yearly sales trends.
-- Explore the relationship between discounts and profitability.
-- Present actionable insights through an interactive dashboard.
+- Analyze the distribution of depression among students.
+- Explore the relationship between academic pressure and depression.
+- Investigate the association between financial stress and depression.
+- Examine sleep duration and dietary habits.
+- Analyze study satisfaction and study hours.
+- Compare depression patterns across gender and age groups.
+- Present meaningful findings through interactive visualizations.
 
-Tools & Technologies
+ Dataset Overview
 
-| Tool | Purpose |
+The dataset consists of **502 student records and 11 attributes**.
+
+Key attributes include:
+
+| Attribute | Description |
 |---|---|
-| Tableau | Interactive dashboard development |
-| Microsoft Excel | Dataset storage and preparation |
-| Data Visualization | Business insights and trend analysis |
+| Gender | Student gender |
+| Age | Student age |
+| Academic Pressure | Reported academic pressure |
+| Study Satisfaction | Satisfaction with studies |
+| Sleep Duration | Student sleep duration |
+| Dietary Habits | Reported dietary habits |
+| Financial Stress | Financial stress level |
+| Family History | Family history indicator |
+| Suicidal Thoughts | Reported suicidal thoughts |
+| Study Hours | Daily study hours |
+| Depression | Depression indicator (target variable) |
 
-Dataset Description
+Dataset Statistics
 
-The project uses a Superstore retail sales dataset containing information about:
+- Total records: 502
+- Total attributes: 11
+- Students reporting depression: 252
+- Students not reporting depression: 250
+- Depression rate: 50.20%
 
-- Order ID and Order Date
-- Customer ID and Customer Segment
-- Product Category and Sub-category
-- Sales and Quantity
-- Discount
-- Profit
-- Region, State and City
-- Shipping Information
+Technologies Used
 
-Key Analysis Areas
+| Technology | Purpose |
+|---|---|
+| Python | Data analysis |
+| Pandas | Data manipulation |
+| NumPy | Numerical operations |
+| Matplotlib | Data visualization |
+| Seaborn | Statistical visualization |
+| SciPy | Statistical analysis |
+| SQL | Data querying and analysis |
+| Power BI | Interactive dashboard development |
 
-1. Sales Performance Analysis
-Evaluates overall sales trends and revenue contribution.
+Project Workflow
 
-2. Profitability Analysis
-Examines profit distribution and identifies products or categories with lower profitability.
+1. **Data Understanding:** Examined the dataset structure, attributes and distributions.
+2. **Data Cleaning:** Checked data quality, missing values, duplicates and data types.
+3. **Exploratory Data Analysis:** Investigated patterns across academic, financial and lifestyle factors.
+4. **Statistical Analysis:** Explored associations between selected variables and depression.
+5. **Data Visualization:** Created charts to communicate analytical findings.
+6. **Dashboard Development:** Designed an interactive Power BI dashboard.
 
-3. Regional Performance
-Compares sales and profit across geographical regions to identify high-performing markets.
+Power BI Dashboard
 
-4. Product Category Analysis
-Identifies top-selling categories and sub-categories.
+The dashboard provides an overview of student mental health patterns through KPI cards and interactive visualizations.
 
-5. Customer Segment Analysis
-Explores purchasing patterns and revenue contribution across customer segments.
+Key Performance Indicators
 
-6. Discount Analysis
-Investigates how discount levels relate to sales and profitability.
+- Total Students: 502
+- Depression Count: 252
+- Depression Rate: 50.20%
 
-Dashboard Features
+Visualizations
 
-- Interactive sales and profit visualizations.
-- Category and sub-category comparisons.
-- Regional performance analysis.
-- Customer segment analysis.
-- Sales trend exploration.
-- Interactive filters for deeper analysis.
+- Student Depression Distribution
+- Academic Pressure vs Depression
+- Financial Stress vs Depression
+- Sleep Duration vs Depression
+- Study Satisfaction vs Depression
+- Gender-wise Depression Distribution
+- Dietary Habits vs Depression
 
-Business Value
+Interactive Filters
 
-The dashboard helps businesses:
+- Gender
+- Age Range
+- Academic Pressure Level
 
-- Identify profitable product categories.
-- Understand regional sales performance.
-- Recognize underperforming products.
-- Evaluate discount strategies.
-- Make informed sales and inventory decisions.
-- Identify opportunities to improve profitability.
+Key Business Questions
 
- Project Files
+1. What proportion of students report depression?
+2. How does academic pressure relate to depression?
+3. Is financial stress associated with depression?
+4. How does sleep duration vary across depression categories?
+5. Is study satisfaction associated with depression?
+6. Do depression patterns differ across gender and dietary habits?
 
-- `Superstore_Sales_Dashboard.twb` – Tableau dashboard workbook.
-- `Superstore_Sales.xlsx` – Source dataset.
-- `README.md` – Project documentation.
+ Business Value
 
- Future Enhancements
+The project provides insights into student well-being patterns and helps identify areas where educational institutions may consider strengthening student support initiatives.
 
-- Develop sales forecasting models.
-- Perform customer segmentation.
-- Build advanced profitability analysis.
-- Integrate Python for deeper statistical analysis.
-- Develop additional interactive dashboard views.
+It demonstrates how data analytics and business intelligence tools can transform raw student data into meaningful information for decision-making.
+
+Limitations
+
+- The dataset contains 502 records and may not represent the wider student population.
+- Observed relationships do not establish causation.
+- The dashboard is intended for exploratory analysis, not medical diagnosis.
+- Findings should be interpreted within the limitations of the available dataset.
+
+Future Enhancements
+
+- Expand the analysis using larger datasets.
+- Incorporate advanced statistical testing.
+- Develop additional dashboard insights.
+- Explore machine learning models for further research.
+- Introduce additional student well-being indicators.
 
 Author
 
